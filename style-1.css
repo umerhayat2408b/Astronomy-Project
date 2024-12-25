@@ -1,0 +1,274 @@
+@media (max-width: 600px) {
+    .s1{
+        height:85vh;
+        width: 100%;
+    }
+    .img2{
+        width: 30vw;
+        height: 4vh;
+        margin-bottom: 35vh;
+    }
+    nav{
+        height: 49vh;
+        margin-top: -4vh;
+    }
+    .ex{
+        margin-top: 15vh;
+        height: 14vh;
+        margin-top: 4vw;
+    }
+    .img3{
+        margin-top: -2vw;
+        width: 77vw;
+        margin-left: 9vw;
+        position: relative;
+        bottom: 10vw;
+    }
+    .ul1{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 0;
+        transition: all 0.5s;
+    }
+    .list{
+        overflow: hidden;
+        display: block; 
+        font-size: 2vw;  
+        padding: 10px;
+    }
+    .ri-menu-3-line{
+        font-size: 6vw;
+        margin-left: 48vw;
+        margin-bottom: 35vh;
+        display: block;
+    }
+    .exp1{
+        font-size: 6vw;
+        letter-spacing:3.5vw;
+    }
+    .cir{
+        width: 9vw;
+        padding-right: 3vw;
+    }
+    .exp2{
+        font-size: 6vw;
+        letter-spacing:3.5vw;
+    }
+    .s2{
+        height: 120vh;
+    }
+    .last_section1{
+        height: 119vh;
+        overflow-y: hidden;
+    }
+    .s1{
+        height: 45vh;
+    }
+    .last_section1 > p{
+       font-size: 5.5vw;
+       padding-top: 2vw;
+    }
+    .last_section2{
+    display: flex;
+    width: 70vw;
+    height: 108vh;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vh;
+    }
+    .lsf{
+      width: 100%;
+      height: 28vh;
+    }
+    .lsf .title{
+        width: 13vw;
+        height: 13vw;
+    }
+    .tit1{
+        font-size: 3.5vw;
+    }
+    .tit2{
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 180vh;
+        background-color: black;
+        gap: 15px;
+    }
+    .box1{
+        height: 100vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        gap: 5vw;
+        overflow-y: hidden;
+        text-align: justify;
+        text-align-last: center;
+        position: relative;
+    }
+    .text21{
+        position: absolute;
+        bottom: 5vw;
+    }
+    .img11{
+        position: absolute;
+        top: 4vw;
+    }
+    .img1{
+        width: 32vw;
+    }
+    .text2{
+        width: 89%;
+        height: 22vh;
+        overflow: hidden;
+        margin-top: 4vh;
+    }
+    .text2 h3{
+        font-size: 5vw;
+    }
+    .text2 p{
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+    .section3{
+        width: 100vw;
+        height: 60vh;
+        overflow: hidden;
+    }
+    .video{
+        height: 60vh;
+    }
+    .color{
+        width: 99vw;
+        height: 60vh;
+        position: absolute;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.74);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;  
+     }
+     #typewriter{
+        color: rgba(255, 255, 255, 0.692);
+        width: 93%;
+        font-size: 3vw;
+        line-height: 4vw;
+        text-align: justify;
+        word-spacing: 0.2px;
+        text-align-last: center;
+    }
+    .color > h1 {
+        color: white;
+        font-size: 5vw;
+    }
+    .color > p{
+        margin-right: 2vw;
+    }
+     #typewriter1{
+        color: rgba(255, 255, 255, 0.692);
+        width: 93%;
+        font-size: 3vw;
+        line-height: 4vw;
+        text-align: justify;
+        word-spacing: 0.2px;
+        text-align-last: center;
+    }
+    .s4c > h1 {
+        color: white;
+        margin-bottom: 6vw;
+        font-size: 5vw;
+     }
+     .s4{
+        width: 100vw;
+        height: 50vh;
+        overflow: hidden;
+    }
+    .s4c{
+        width: 100vw;
+        overflow-y: hidden;
+        height: 50vh;
+        position: absolute;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.74);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;  
+     }
+     .s4c > p{
+        margin-right: 3vw;
+     }
+}
+@media (max-width:1600px){
+    .map1,.map2{
+        height: 195vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .map-img, .map-img1, .mount, .California {
+        max-width: 50vw;
+    }
+    .map > h2, .map-california > h2 {
+        font-size: 1.5rem;
+    }
+    .map > p, .map-california > p {
+        font-size: 0.9rem;
+    }
+    .map1,.map2{
+        height: 190vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .map1,.map2{
+        height: 175vh;
+    }
+    .map-img, .map-img1, .mount, .California {
+        max-width: 70vw;
+    }
+    .map > h2, .map-california > h2 {
+        font-size: 1.2rem;
+    }
+    .map > p, .map-california > p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .map-img, .map-img1, .mount, .California {
+        max-width: 90vw;
+    }
+    .map > h2, .map-california > h2 {
+        font-size: 1rem;
+    }
+    .map > p, .map-california > p {
+        font-size: 0.7rem;
+    }
+    .Latest-h1 {
+        font-size: 1.5rem;
+    }
+    .Latest-p {
+        font-size: 0.9rem;
+    }
+    .Latest-button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}

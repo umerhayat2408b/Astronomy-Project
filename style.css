@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.s1{
+    width: 100vw;
+    height: 108vh;
+    background-color: #020308;
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #020308;
+}
+.img2{
+    background-image: url('./images/Astron\ 3.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 7vh;
+    margin-left:7vw;
+}
+.ul1{
+    display: flex;
+    gap: 3vw;
+    list-style: none;
+    margin-left: 10%;
+}
+.list{
+    color: rgb(196, 183, 183);
+    font-size: 1vw;
+}
+.list:hover{
+    color: white;
+}
+.ri-menu-3-line{
+    display: none;
+}
+.ex{
+    width: 100vw;
+    height: 27vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    position: relative;
+    z-index: 99;
+    margin-top: 5vw;
+}
+.img3{
+    width: 75vw;
+    margin-left: 10.5vw;
+    background-image: url('./images/Astron.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vmin;
+    position: relative;
+    bottom: 2vw;
+}
+.cir{
+    width: 5.5vw;
+    padding-right: 1.5vw; 
+}
+.exp1{
+    font-size: 4vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 2.5vw;
+}
+.exp2{
+    font-size: 4vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 2.5vw;
+    padding-top: 2vh;
+}
+.last_section1{
+    width: 100vw;
+    height: 400px;
+    background-color: #020308; 
+}
+.last_section2{
+    display: flex;
+    width: 77vw;
+    height: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+.last1{
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+.last2{
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;    
+}
+.last3{
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;    
+}
+.last4{
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;    
+}
+.last_section1 > p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 3.2vw;
+    text-align: center;
+}
+.last1 > .title{
+ width:7vw;
+ height: 7vw;
+ background-image: url(./images/Astron\ 4.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(34deg) brightness(125%) contrast(110%);
+}
+.last2 > .title{
+    width:7vw;
+ height: 7vw;
+ background-image: url(./images/Astron\ 5.png);
+ filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(34deg) brightness(125%) contrast(110%);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.last3 > .title{
+    width:7vw;
+ height: 7vw;
+ background-image: url(./images/Astron\ 6.png);
+ filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(34deg) brightness(125%) contrast(110%);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.last4 > .title{
+    width:7vw;
+ height: 7vw;
+ background-image: url(./images/Astron\ 7.png);
+ filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(34deg) brightness(125%) contrast(110%);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.tit1{
+  font-size: 1.7vw;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+.tit2{
+    font-size: 1.2vw;
+    text-align: center;
+}
+.s3{
+    width: 100vw;
+    height: 60vh;
+    border: 1px solid purple;
+    background-color: #020308;
+    display: flex;
+    align-items: center;
+}
+.s3>img{
+    width: 27vw;
+    margin-left: 6vw;
+}
+/* another css */
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 10vw;
+    overflow-y: hidden;
+}
+.img1{
+    width:28vw;
+}
+.text2{
+    width: 38vw;
+    color: white;
+}
+.text2 > p{
+    color: white;
+    font-size: 1.3vw;
+    line-height: 1.7vw;
+    padding-bottom: 1.8vw;
+    font-size: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text2 > h3{
+    text-align: center;
+    font-size: 3vw;
+    padding-bottom: 1.5vw;
+    text-transform: capitalize;
+    letter-spacing: 0.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* another css */
+.section3{
+    width: 100vw;
+    height: 80vh;
+    margin-top: 15vh;
+}
+.color{
+   width: 99vw;
+   overflow-y: hidden;
+   height: 80vh;
+   position: absolute;
+   z-index: 999;
+   background-color: rgba(0, 0, 0, 0.74);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+#typewriter{
+    color: rgba(255, 255, 255, 0.692);
+    width: 85%;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    text-align: justify;
+    word-spacing: 0.2px;
+    text-align-last: center;
+}
+#typewriter1{
+    color: rgba(255, 255, 255, 0.692);
+    width: 85%;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    text-align: justify;
+    word-spacing: 0.2px;
+    text-align-last: center;
+}
+#typewriter11{
+    color: rgba(255, 255, 255, 0.692);
+    width: 85%;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    text-align: justify;
+    word-spacing: 0.2px;
+    text-align-last: center;
+}
+.color > h1 {
+   color: white;
+   margin-bottom: 3vw;
+   font-size: 3vw;
+}
+.s4c > h1 {
+    color: white;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+ }
+.s4{
+    height: 80vh;
+    overflow: hidden;
+    margin-top: 12vh;
+}
+.s4c{
+    width: 99vw;
+   overflow-y: hidden;
+   height: 80vh;
+   position: absolute;
+   z-index: 999;
+   background-color: rgba(0, 0, 0, 0.486);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+h1, h2 {
+    margin: 0;
+}
+.Latest {
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+}
+.Latest-h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.Latest-p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+.Latest-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Latest-button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.Top-h1 {
+    text-align: center;
+    color: #000;
+    font-size: 2.5vw;
+}
+.map1 {
+    background-color: black;
+    padding: 2rem 0;
+    color: white;
+    height: 158vh;
+}
+.map-img {
+    height: auto;
+    width: 100%;
+    max-width: 30vw;
+    margin: 2rem auto;
+    display: block;
+}
+.map {
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+}
+.map > h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+.map > p {
+    font-size: 1rem;
+}
+.mount {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 600px;
+    height: 80vh;
+    border-radius: 11px;
+    display: block;
+}
+.map2 {
+    background-color: black;
+    padding: 2rem 0;
+    color: white;
+    height: 165vh;
+}
+.California {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 630px;
+    height: 80vh;
+    border-radius: 11px;
+    display: block;
+}
+.map-img1 {
+    height: auto;
+    width: 100%;
+    max-width: 30vw;
+    margin: 2rem auto;
+    display: block;
+}
+.map-california {
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+}
+.map-california > h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+.map-california > p {
+    font-size: 1rem;
+}
+.Maldives-h1 {
+    padding-left: 1rem;
+    font-size: 2rem;
+}
