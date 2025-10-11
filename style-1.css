@@ -62,10 +62,11 @@
         letter-spacing:3.5vw;
     }
     .s2{
-        height: 120vh;
+        height: 157vh;
+        margin-top: 65px;
     }
     .last_section1{
-        height: 119vh;
+        height: 150vh;
         overflow-y: hidden;
     }
     .s1{
@@ -78,7 +79,7 @@
     .last_section2{
     display: flex;
     width: 70vw;
-    height: 108vh;
+    height: 135vh;
     flex-direction: column;
     margin: auto;
     justify-content: space-around;
@@ -87,7 +88,7 @@
     }
     .lsf{
       width: 100%;
-      height: 28vh;
+      height: 38vh;
     }
     .lsf .title{
         width: 13vw;
@@ -107,6 +108,8 @@
         height: 180vh;
         background-color: black;
         gap: 15px;
+        margin-top: 15vh;
+        border: 2px solid red;
     }
     .box1{
         height: 100vh;
@@ -220,6 +223,9 @@
     .map1,.map2{
         height: 195vh;
     }
+    .ex{
+        height: 220px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -239,7 +245,7 @@
 
 @media (max-width: 768px) {
     .map1,.map2{
-        height: 175vh;
+        height: 179vh;
     }
     .map-img, .map-img1, .mount, .California {
         max-width: 70vw;
@@ -272,4 +278,20 @@
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
     }
+}
+
+.ul1.show {
+  max-height: 400px;
+  opacity: 1;
+}
+.ul1 {
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+@media (min-width: 768px) {
+  .ul1 {
+    opacity: 1 !important;
+    max-height: none !important;
+  }
 }
